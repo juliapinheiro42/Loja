@@ -149,7 +149,7 @@ a.text-primary {
   background-color: #005CFF;
   width: 100%;
 }
-/* Estilos para o header */
+
 .sticky-top {
   z-index: 1020;
 }
@@ -173,7 +173,6 @@ a.text-primary {
   transform: translateY(-2px);
 }
 
-/* Barra de busca mobile */
 .searchbar-mobile {
   position: relative;
 }
@@ -266,7 +265,6 @@ a.text-primary {
   }
 }
 
-/* Ajustes para desktop */
 @media (min-width: 992px) {
   .navbar-collapse {
     display: flex !important;
@@ -325,7 +323,7 @@ a.text-primary {
       height: 100%;
     }
     .classcaneca {
-      margin-top: 3rem; /* ou 4rem, se quiser ainda mais */
+      margin-top: 3rem;
     }
     #carousel2{
       display: none;
