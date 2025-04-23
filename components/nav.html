@@ -1,0 +1,146 @@
+<!-- Botão: Todas as Categorias (Mobile) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block">
+  <div class="container-fluid">
+    <!-- Botão para mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Conteúdo do menu -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <!-- Botão Todas as Categorias (Desktop) -->
+      <div class="dropdown position-static d-flex me-3" id="categoriasDropdown">
+        <button class="btn btn-link text-dark dropdown-toggle d-none d-lg-flex" id="menuCategorias" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-list"></i> Todas as Categorias
+        </button>
+
+        <!-- Mega Menu lateral (Desktop) -->
+        <div class="dropdown-menu mega-menu-container p-0 border-0 shadow-sm">
+          <div class="d-flex">
+            <!-- Departamentos -->
+            <ul class="list-group list-group-flush border-end" style="width: 200px;">
+              <li class="list-group-item py-2 px-3 departamento-item active" data-departamento="1">
+                <strong>Departamento</strong>
+                <i class="bi bi-chevron-right float-end"></i>
+              </li>
+              <li class="list-group-item py-2 px-3 departamento-item" data-departamento="2">Departamento</li>
+              <li class="list-group-item py-2 px-3 departamento-item" data-departamento="3">Departamento</li>
+              <li class="list-group-item py-2 px-3 departamento-item" data-departamento="4">Departamento</li>
+              <li class="list-group-item py-2 px-3 departamento-item" data-departamento="5">Departamento</li>
+            </ul>
+
+            <!-- Categorias -->
+            <div class="p-3 categorias-area flex-grow-1 text-center" id="categoriasArea1">
+              <h6 class="text-primary">Categoria</h6>
+              <ul class="list-unstyled">
+                <li><a href="#" class="dropdown-item">Categoria</a></li>
+                <li><a href="#" class="dropdown-item">Categoria</a></li>
+                <li><a href="#" class="dropdown-item">Categoria</a></li>
+                <li><a href="#" class="dropdown-item">Categoria</a></li>
+                <li><a href="#" class="dropdown-item">Categoria</a></li>
+              </ul>
+            </div>
+            <!-- Outras categorias... -->
+            
+            <!-- Banner -->
+            <div class="p-3" style="width: 250px;">
+              <div class="card border-0 shadow-sm">
+                <img src="../assets/caneca-natabua.png" class="card-img-top" alt="Promo">
+                <div class="card-img-overlay d-flex flex-column justify-content-end text-white bg-dark bg-opacity-50">
+                  <h6 class="mb-1">Confira os Produtos<br><strong>Que acabaram de chegar</strong></h6>
+                  <a href="#" class="btn btn-light btn-sm">VER TODOS</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu de Navegação Horizontal -->
+      <ul class="navbar-nav">
+        <!-- Departamento com dropdown (Desktop) -->
+        <li class="nav-item dropdown position-static d-none d-lg-block">
+          <a class="nav-link fw-semibold" href="#" id="departamento1" data-bs-toggle="dropdown">
+            Departamento
+          </a>
+          <div class="dropdown-menu w-100 mt-0 border-0 rounded-0 shadow-lg p-4 mega-menu">
+            <h5 class="fw-semibold mb-3"> Departamento </h5> 
+            <div class="row text-center">
+              <div class="col-md-3">
+                <h6 class="text-primary">Categoria</h6>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="dropdown-item">Categoria</a></li>
+                  <li><a href="#" class="dropdown-item">Categoria</a></li>
+                  <li><a href="#" class="dropdown-item">Categoria</a></li>
+                  <li><a href="#" class="dropdown-item">Categoria</a></li>
+                </ul>
+              </div>
+              <!-- Outras colunas... -->
+              <div class="col-md-3">
+                <div class="card border-0 shadow-sm">
+                  <img src="../assets/caneca-natabua.png" class="card-img-top" alt="Promoção">
+                  <div class="card-img-overlay d-flex flex-column justify-content-end text-white bg-dark bg-opacity-50">
+                    <h5>Confira os<br>Produtos<br><strong>Que acabaram<br>De chegar</strong></h5>
+                    <a href="#" class="btn btn-light btn-sm mt-2">VER TODOS</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Versão mobile - itens simples -->
+        <li class="nav-item d-lg-none"><a class="nav-link" href="#">Departamento</a></li>
+        <li class="nav-item d-lg-none"><a class="nav-link" href="#">Departamento</a></li>
+        <li class="nav-item d-lg-none"><a class="nav-link" href="#">Departamento</a></li>
+        <li class="nav-item d-lg-none"><a class="nav-link" href="#">Departamento</a></li>
+        <li class="nav-item d-lg-none"><a class="nav-link" href="#">Departamento</a></li>
+        <li class="nav-item d-lg-none"><a class="nav-link" href="#">Departamento</a></li>
+        
+        <!-- Versão desktop - itens normais -->
+        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#">Departamento</a></li>
+        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#">Departamento</a></li>
+        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#">Departamento</a></li>
+        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#">Departamento</a></li>
+        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#">Departamento</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CSS adicional para responsividade -->
+<style>
+  /* Ajustes para mobile */
+  @media (max-width: 992px) {
+    .mega-menu-container, .mega-menu {
+      width: 100% !important;
+      position: relative !important;
+    }
+    
+    .navbar-nav {
+      flex-direction: column;
+    }
+    
+    /* Botão "Todas as Categorias" visível apenas em desktop */
+    #menuCategorias.d-none {
+      display: none !important;
+    }
+    
+    /* Versão mobile do botão "Todas as Categorias" */
+    .navbar-toggler {
+      margin-right: 10px;
+    }
+  }
+  
+  /* Ajustes para desktop */
+  @media (min-width: 992px) {
+    .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+    }
+    
+    .navbar-nav {
+      flex-direction: row;
+    }
+  }
+</style>

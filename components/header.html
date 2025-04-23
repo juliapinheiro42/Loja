@@ -1,0 +1,91 @@
+<header class="container-fluid bg-white shadow-sm py-2 sticky-top">
+  <div class="container">
+    <div class="d-none d-lg-flex justify-content-between align-items-center">
+      <!-- Logo com melhor tratamento -->
+      <div class="logo" style="width: 180px;">
+        <a href="/">
+          <img src="assets/logo_avanti.png" alt="Avanti" class="img-fluid" style="max-height: 60px; width: auto;">
+        </a>
+      </div>
+
+      <!-- Barra de busca melhorada -->
+      <div class="search-container position-relative">
+        <form id="formBusca" class="d-flex" role="search">
+          <input class="form-control me-2" type="search" 
+                 id="inputBusca" 
+                 placeholder="Digite aqui o que você procura" 
+                 aria-label="Search"
+                 autocomplete="off">
+          <button class="btn btn-outline-primary" type="submit" id="botaoBusca">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div id="resultadoBusca" class="search-results"></div>
+      </div>
+
+      <!-- Ícones de usuário e carrinho -->
+      <div class="d-flex align-items-center gap-4">
+        <div class="icon-button text-primary">
+          <a href="/minha-conta" class="text-decoration-none">
+            <i class="bi bi-person fs-5"></i>
+            <span class="ms-2 d-none d-xl-inline"><span style="color: rgb(69, 69, 69) !important;">Olá,</span> Nome cliente!</span>
+          </a>
+        </div>
+        <div class="icon-button position-relative">
+          <a href="/carrinho" class="text-dark">
+            <i class="bi bi-cart3 fs-5"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+              0
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Header Mobile -->
+<div class="container-fluid bg-white shadow-sm d-lg-none sticky-top">
+  <div class="container py-2">
+    <div class="d-flex justify-content-between align-items-center">
+      <!-- Menu Hamburguer -->
+      <button class="navbar-toggler btn btn-outline-secondary border-0" type="button" 
+      data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+      aria-controls="navbarNavDropdown" aria-expanded="false" 
+      aria-label="Toggle navigation">
+                      <i class="bi bi-list fs-4"></i>
+      </button>
+
+      <!-- Logo centralizada -->
+      <div class="logo mx-auto" style="width: 140px;">
+        <a href="/">
+          <img src="assets/logo_avanti.png" alt="Avanti" class="img-fluid" style="max-height: 60px; width: auto;">
+        </a>
+      </div>
+
+      <!-- Carrinho com badge -->
+      <div class="icon-button position-relative">
+        <a href="/carrinho" class="text-dark">
+          <i class="bi bi-cart3 fs-4"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+            0
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Barra de busca mobile -->
+    <form class="mt-2" onsubmit="event.preventDefault(); buscarMobile()">
+      <div class="input-group">
+        <input type="search" 
+               class="form-control rounded-pill py-2 px-3" 
+               placeholder="Digite aqui o que procura..." 
+               aria-label="Buscar" 
+               id="campoBuscaMobile">
+        <button class="btn  rounded-pill position-absolute end-0" type="submit" style="z-index: 1;">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
