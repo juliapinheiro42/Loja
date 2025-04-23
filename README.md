@@ -37,7 +37,6 @@ git clone https://github.com/juliapinheiro42/avanti-ecommerce.git
 
 2. Abra o index.html no seu navegador (pode abrir direto, não precisa de servidor).
 
-✅ Dica: Para testar interações JS (como busca), verifique se o script.js está carregado corretamente e que os componentes foram inseridos dinamicamente no DOM.
 
 ## Desenvolvido por Julia Farias
 
