@@ -14,28 +14,6 @@ Este é um projeto de **e-commerce responsivo** desenvolvido com foco em boas pr
 
 ---
 
-## 📦 Estrutura do projeto
-
-📁 projeto-ecommerce/
-│
-├── index.html
-├── style.css  
-├── script.js
-├── components/
-│ ├── topbar.html
-│ ├── header.html
-│ ├── nav.html
-│ ├── banner.html
-│ ├── carousel.html
-│ ├── containercaneca.html
-│ ├── containericone.html
-│ ├── newsteller.html
-│ └── footer.html
-├── assets/
-│ └── (imagens)
-
----
-
 ## 🧠 Funcionalidades implementadas
 
 - ✅ Layout 100% responsivo com **Bootstrap Grid**
