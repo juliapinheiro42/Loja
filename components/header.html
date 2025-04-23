@@ -1,14 +1,12 @@
 <header class="container-fluid bg-white shadow-sm py-2 sticky-top">
   <div class="container">
     <div class="d-none d-lg-flex justify-content-between align-items-center">
-      <!-- Logo com melhor tratamento -->
       <div class="logo" style="width: 180px;">
         <a href="/">
           <img src="assets/logo_avanti.png" alt="Avanti" class="img-fluid" style="max-height: 60px; width: auto;">
         </a>
       </div>
 
-      <!-- Barra de busca melhorada -->
       <div class="search-container position-relative">
         <form id="formBusca" class="d-flex" role="search">
           <input class="form-control me-2" type="search" 
@@ -23,7 +21,6 @@
         <div id="resultadoBusca" class="search-results"></div>
       </div>
 
-      <!-- Ícones de usuário e carrinho -->
       <div class="d-flex align-items-center gap-4">
         <div class="icon-button text-primary">
           <a href="/minha-conta" class="text-decoration-none">
@@ -44,11 +41,9 @@
   </div>
 </header>
 
-<!-- Header Mobile -->
 <div class="container-fluid bg-white shadow-sm d-lg-none sticky-top">
   <div class="container py-2">
     <div class="d-flex justify-content-between align-items-center">
-      <!-- Menu Hamburguer -->
       <button class="navbar-toggler btn btn-outline-secondary border-0" type="button" 
       data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
       aria-controls="navbarNavDropdown" aria-expanded="false" 
@@ -56,14 +51,12 @@
                       <i class="bi bi-list fs-4"></i>
       </button>
 
-      <!-- Logo centralizada -->
       <div class="logo mx-auto" style="width: 140px;">
         <a href="/">
           <img src="assets/logo_avanti.png" alt="Avanti" class="img-fluid" style="max-height: 60px; width: auto;">
         </a>
       </div>
 
-      <!-- Carrinho com badge -->
       <div class="icon-button position-relative">
         <a href="/carrinho" class="text-dark">
           <i class="bi bi-cart3 fs-4"></i>
@@ -73,8 +66,6 @@
         </a>
       </div>
     </div>
-
-    <!-- Barra de busca mobile -->
     <form class="mt-2" onsubmit="event.preventDefault(); buscarMobile()">
       <div class="input-group">
         <input type="search" 
